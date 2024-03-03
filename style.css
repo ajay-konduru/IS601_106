@@ -1,0 +1,54 @@
+/* Name - Ajay Kumar Konduru
+UCID - ak3235
+Date - 2nd March 2024 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f4f4f4; /* Lighter background */
+    color: #333; /* Dark grey text */
+}
+
+/* Style changes for links */
+a {
+    color: #005a87; /* Navy blue color */
+}
+
+a:hover, a.text-info:hover {
+    color: #ffd700; /* Gold color */
+    text-decoration: none; /* No underline */
+}
+
+/* Table styling */
+.table {
+    margin-bottom: 40px;
+}
+
+/* Skills grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+/* Contact form styling */
+input[type=text], input[type=email], textarea {
+    border-radius: 0.25rem; /* Rounded corners */
+}
+
+input[type=submit] {
+    background-color: #005a87; /* Navy blue background */
+    border-color: #005a87;
+}
+
+input[type=submit]:hover {
+    background-color: #003f5f; /* Darker navy blue on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #e9ecef; /* Light gray background */
+    color: #333; /* Dark grey text */
+}
